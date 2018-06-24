@@ -14,14 +14,16 @@ Summary: Clone of Apple's libunwind, enhanced for the Julia Profiler
 Current build status
 ====================
 
-Linux: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/libosxunwind-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/libosxunwind-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![OSX](https://img.shields.io/travis/conda-forge/libosxunwind-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/libosxunwind-feedstock)
+![Linux disabled](https://img.shields.io/badge/linux-disabled-lightgrey.svg)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libosxunwind/badges/version.svg)](https://anaconda.org/conda-forge/libosxunwind)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libosxunwind/badges/downloads.svg)](https://anaconda.org/conda-forge/libosxunwind)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libosxunwind-green.svg)](https://anaconda.org/conda-forge/libosxunwind) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libosxunwind.svg)](https://anaconda.org/conda-forge/libosxunwind) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libosxunwind.svg)](https://anaconda.org/conda-forge/libosxunwind) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libosxunwind.svg)](https://anaconda.org/conda-forge/libosxunwind) |
 
 Installing libosxunwind
 =======================
