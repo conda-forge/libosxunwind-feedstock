@@ -1,6 +1,6 @@
 {% set name = "libosxunwind" %}
-{% set version = "0.0.3" %}
-{% set sha256 = "862d060d4361e5a5c5b0d02508a114a51aa66b5bb25462b2bf3a9f48d420a54d" %}
+{% set version = "0.0.4" %}
+{% set sha256 = "ba1796f654d2c19e68dd117f2818c15fb4323e736ef8003ff4416c6a7587b9d7" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2001
+  number: 1000
   skip: true  # [not osx]
 
 requirements:
