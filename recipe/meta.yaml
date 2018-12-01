@@ -1,6 +1,6 @@
 {% set name = "libosxunwind" %}
-{% set version = "0.0.4" %}
-{% set sha256 = "ba1796f654d2c19e68dd117f2818c15fb4323e736ef8003ff4416c6a7587b9d7" %}
+{% set version = "0.0.5" %}
+{% set sha256 = "6a848fec0f25307420ae3f25889d1bd36ee2621fb7aef881a85c3641063c829f" %}
 
 package:
   name: {{ name|lower }}
