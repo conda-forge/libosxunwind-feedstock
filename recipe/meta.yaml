@@ -34,10 +34,7 @@ test:
 about:
   home: https://github.com/JuliaLang/libosxunwind
   license: APSL-2.0
-  # No license file included. Raise an issue upstream.
-  #
-  # xref: https://github.com/JuliaLang/libosxunwind/issues/10
-  license_file: {{ RECIPE_DIR }}/LICENSE.txt
+  license_file: LICENSE
   license_url: https://opensource.apple.com/apsl
   summary: Clone of Apple's libunwind, enhanced for the Julia Profiler
   dev_url: https://github.com/JuliaLang/libosxunwind
