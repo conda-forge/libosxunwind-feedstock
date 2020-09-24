@@ -1,6 +1,6 @@
 {% set name = "libosxunwind" %}
-{% set version = "0.0.5" %}
-{% set sha256 = "6a848fec0f25307420ae3f25889d1bd36ee2621fb7aef881a85c3641063c829f" %}
+{% set version = "0.0.6" %}
+{% set sha256 = "c3943fdd063c2c8c249778326cbfecdc62c804a0509c4ae4799604e1817f9058" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   skip: true  # [not osx]
 
 requirements:
@@ -34,10 +34,7 @@ test:
 about:
   home: https://github.com/JuliaLang/libosxunwind
   license: APSL-2.0
-  # No license file included. Raise an issue upstream.
-  #
-  # xref: https://github.com/JuliaLang/libosxunwind/issues/10
-  license_file: "{{ RECIPE_DIR }}/LICENSE.txt"
+  license_file: LICENSE
   license_url: https://opensource.apple.com/apsl
   summary: Clone of Apple's libunwind, enhanced for the Julia Profiler
   dev_url: https://github.com/JuliaLang/libosxunwind
