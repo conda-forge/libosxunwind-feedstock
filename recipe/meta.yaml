@@ -28,8 +28,6 @@ test:
     - test -f "${PREFIX}/lib/libosxunwind.a"
     - test -f "${PREFIX}/lib/libosxunwind.dylib"
 
-    - conda inspect linkages -p "${PREFIX}" "{{ name }}"
-    - conda inspect objects -p "${PREFIX}" "{{ name }}"
 
 about:
   home: https://github.com/JuliaLang/libosxunwind
