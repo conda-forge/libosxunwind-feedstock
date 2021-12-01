@@ -28,7 +28,6 @@ test:
     - test -f "${PREFIX}/lib/libosxunwind.a"
     - test -f "${PREFIX}/lib/libosxunwind.dylib"
 
-
 about:
   home: https://github.com/JuliaLang/libosxunwind
   license: APSL-2.0
